@@ -110,7 +110,7 @@ function update() {
     context.fillText(score, 5, 45);
 
     if (gameOver) {
-        context.fillText("Allahu Akbar", 5, 90);
+        context.fillText("@!!@hu @kb@r", 5, 90);
     }
 }
 
