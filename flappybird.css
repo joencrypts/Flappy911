@@ -1,9 +1,34 @@
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    background-color: #87ceeb;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 #board {
-    /* background-color: skyblue; */
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #fff;
+    border-radius: 15px;
     background-image: url("./flappybirdbg.png");
+    background-size: cover;
+}
+
+.game-button {
+    font-size: 20px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+.game-button:hover {
+    background-color: #218838;
+    transform: scale(1.1);
 }
