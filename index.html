@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport", content="width=device-width, initial-scale=1.0">
-        <title>Flappy Bird</title>
-        <link rel="stylesheet" href="flappybird.css">
-        <script src="flappybird.js"></script>
-    </head>
-    <body>
-        <canvas id="board"></canvas>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="flappybird.css">
+    <script defer src="flappybird.js"></script>
+</head>
+<body>
+    <canvas id="board"></canvas>
+    <button id="start" class="game-button">Start</button>
+    <button id="retry" class="game-button" style="display:none;">Retry</button>
+    <audio id="bg-music" loop>
+        <source src="background.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</body>
 </html>
