@@ -175,7 +175,7 @@ function resetGame() {
 
 function startGame() {
     requestAnimationFrame(update);
-    setInterval(placePipes, 2000);
+    setInterval(placePipes, 1700);
 }
 
 function displayGameOver() {
