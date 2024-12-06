@@ -8,7 +8,7 @@ let context;
 //bird
 let birdWidth = 60; //width/height ratio = 388/188 = 50/30
 
-let birdHeight = 25;
+let birdHeight = 30;
 let birdX = boardWidth/8;
 let birdY = boardHeight/2;
 let birdImg;
@@ -62,7 +62,7 @@ window.onload = function() {
     bottomPipeImg.src = "./bottompipe.png";
 
     requestAnimationFrame(update);
-    setInterval(placePipes, 2000); //every 2 seconds
+    setInterval(placePipes, 1500); //every 2 seconds
     document.addEventListener("keydown", moveBird);
 }
 
