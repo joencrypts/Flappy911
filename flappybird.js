@@ -2,7 +2,6 @@ let board;
 let boardWidth = 360;
 let boardHeight = 640;
 let context;
-
 // Bird
 let birdWidth = 50;
 let birdHeight = 20;
@@ -15,7 +14,6 @@ let bird = {
     width: birdWidth,
     height: birdHeight
 };
-
 // Pipes
 let pipeArray = [];
 let pipeWidth = 64;
